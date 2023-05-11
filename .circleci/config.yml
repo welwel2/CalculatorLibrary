@@ -3,10 +3,10 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/python:3.11
+      - image: circleci/python:3.8
 
     working_directory: ~/repo
-
+ß
     steps:
       # Step 1: obtain repo from GitHub
       - checkout
